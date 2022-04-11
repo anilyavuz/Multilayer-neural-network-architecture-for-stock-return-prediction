@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scipy = "*"
+scikit-learn = "*"
+keras = "*"
+tensorflow = "*"
+matplotlib = "*"
+pandas = "*"
+aylien-news-api = "*"
+nltk = "*"
+rpy2 = "*"
+textblob = "*"
+vaderSentiment = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
